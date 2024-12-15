@@ -20,10 +20,10 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-    origin: ['https://kawach-git-main-sujal862s-projects.vercel.app/'],
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: true
+    origin: 'https://kawach-git-main-sujal862s-projects.vercel.app', // Exact frontend URL
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
+    allowedHeaders: ['Content-Type', 'Authorization'], 
+    credentials: true // Allow cookies or credentials
 }));
 
 app.use(express.json());
