@@ -6,7 +6,7 @@ import { AuthProvider } from './context/AuthContext'
 import axios from 'axios'
 
 // Configure axios defaults
-axios.defaults.baseURL = "https://kawach-server.onrender.com";
+axios.defaults.baseURL = "https://kawach-rnhc.onrender.com";
 axios.defaults.withCredentials = true;
 
 createRoot(document.getElementById('root')).render(
